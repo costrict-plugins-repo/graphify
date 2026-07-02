@@ -1,0 +1,13 @@
+{
+  "name": "graphify",
+  "version": "0.9.4",
+  "description": "Any input to knowledge graph — turns code, docs, papers, images, and videos into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.",
+  "author": {
+    "name": "Graphify Labs",
+    "url": "https://graphify.ai"
+  },
+  "homepage": "https://graphify.ai",
+  "repository": "https://github.com/graphify/graphify",
+  "license": "MIT",
+  "keywords": ["knowledge-graph", "code-analysis", "graphrag", "community-detection", "visualization"]
+}
