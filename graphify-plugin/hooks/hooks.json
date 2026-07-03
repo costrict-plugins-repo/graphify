@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "grep -qiE '\"command\"[[:space:]]*:[[:space:]]*\"[^\"]*(grep|rg|ripgrep|find|fd|ack|ag)[^\"]*\"' /dev/stdin && [ -f graphify-out/graph.json ] && echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"MANDATORY: graphify-out/graph.json exists. You MUST run `graphify query \\\"<question>\\\"` before grepping raw files. Only grep after graphify has oriented you, or to modify/debug specific lines.\"}}'"
+            "command": "grep -qiE '\"command\"[[:space:]]*:[[:space:]]*\"[^\"]*(grep|rg|ripgrep|find|fd|ack|ag)[^\"]*\"' && [ -f graphify-out/graph.json ] && echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"MANDATORY: graphify-out/graph.json exists. You MUST run `graphify query \\\"<question>\\\"` before grepping raw files. Only grep after graphify has oriented you, or to modify/debug specific lines.\"}}'"
           }
         ]
       },
