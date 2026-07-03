@@ -1,19 +1,17 @@
 {
-  "name": "graphify",
-  "description": "Graphify — turn any codebase into a knowledge graph",
+  "name": "cos-graph",
+  "description": "cos-graph — turn any codebase into a knowledge graph",
   "owner": {
-    "name": "Graphify Labs",
-    "url": "https://graphifylabs.ai"
+    "name": "Sangfor"
   },
   "plugins": [
     {
       "name": "graphify",
       "description": "Any input to knowledge graph — turns code, docs, papers, images, and videos into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.",
       "author": {
-        "name": "Graphify Labs",
-        "url": "https://graphifylabs.ai"
+        "name": "Graphify Labs"
       },
-      "source": "./graphify-plugin",
+      "source": ".",
       "category": "development"
     }
   ]
