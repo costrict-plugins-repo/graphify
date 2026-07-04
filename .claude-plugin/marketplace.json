@@ -11,7 +11,7 @@
       "author": {
         "name": "Graphify Labs"
       },
-      "source": ".",
+      "source": "./",
       "category": "development"
     }
   ]

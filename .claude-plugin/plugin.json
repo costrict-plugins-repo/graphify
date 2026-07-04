@@ -1,6 +1,6 @@
 {
   "name": "graphify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Any input to knowledge graph — turns code, docs, papers, images, and videos into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools.",
   "author": {
     "name": "Graphify Labs",
